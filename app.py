@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
+
 # Create the Flask application
 app = Flask(__name__)
 
